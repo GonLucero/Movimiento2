@@ -17,9 +17,9 @@ export default function Inicio() {
          
           dispatch(Frase(nombre));
           
-          console.log('llego aqiii')
+          // console.log('llego aqiii')
           setNombre("")
-          alert("Muchas Gracias por Participar!",nombre)
+          alert("Muchas Gracias por Participar!")
       }
       
   }
