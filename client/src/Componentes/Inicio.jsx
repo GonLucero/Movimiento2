@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "../EstilosCss/Inicio.css"
+import { Frase } from "../actions";
 import { useDispatch } from "react-redux";
 export default function Inicio() {
 
@@ -14,11 +15,11 @@ export default function Inicio() {
   function buscar (){
       if(nombre != ''){
          
-          // dispatch(search(nombre));
+          dispatch(Frase(nombre));
           
           console.log('llego aqiii')
           setNombre("")
-          // alert("Muchas Gracias por Participar!")
+          alert("Muchas Gracias por Participar!")
       }
       
   }
