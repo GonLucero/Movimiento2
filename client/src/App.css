@@ -4,6 +4,7 @@ h1{
   color: yellow;
   width: 80vw;
   align-self: center;
+  margin-top: 3vh;
 }
 h2{
   text-align: center;
@@ -23,12 +24,12 @@ h2{
 .button{
   background-color: rgba(0,0,0,0.7);
   color: aliceblue;
-  margin-top: 20vh;
+  margin-top: 15vh;
   height: 10vh;
   border-radius: 5vh;
-  width: 50vw;
+  width: 50vh;
   align-self: center;
-  font-size: 4vh;
+  font-size: 3vh;
   border-color: white;
 }
 
