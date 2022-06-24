@@ -2,15 +2,16 @@ h1{
   text-align: center;
   background-color: rgba(0,0,0,0.7);
   color: yellow;
-  width: 40vw;
+  width: 60vw;
   align-self: center;
 }
 h2{
   text-align: center;
   background-color: rgba(0,0,0,0.7);
   color: yellow;
-  width: 80vw;
+  width: 100vw;
   align-self: center;
+  font-size: 2vh;
 }
 .div{
   display: flex;
