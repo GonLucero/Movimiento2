@@ -2,16 +2,16 @@ h1{
   text-align: center;
   background-color: rgba(0,0,0,0.7);
   color: yellow;
-  width: 60vw;
+  width: 100vw;
   align-self: center;
 }
 h2{
   text-align: center;
   background-color: rgba(0,0,0,0.7);
-  color: yellow;
+  color: white;
   width: 100vw;
   align-self: center;
-  font-size: 2vh;
+  font-size: 4vh;
 }
 .div{
   display: flex;
@@ -26,9 +26,9 @@ h2{
   margin-top: 10vh;
   height: 10vh;
   border-radius: 5vh;
-  width: 40vh;
+  width: 30vw;
   align-self: center;
-  font-size: 2vw;
+  font-size: 4vw;
   border-color: white;
 }
 
@@ -36,7 +36,7 @@ h2{
   margin-top: 10vh;
   /* border-color: yellow; */
   height: 5vh;
-  width: 55vw;
+  width: 85vw;
   border-radius: 1vw;
   font-size: 3vh;
   align-self: center;
