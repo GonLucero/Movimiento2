@@ -9,7 +9,7 @@ h2{
   text-align: center;
   background-color: rgba(0,0,0,0.7);
   color: yellow;
-  width: 40vw;
+  width: 100vw;
   align-self: center;
 }
 .div{
@@ -22,7 +22,7 @@ h2{
 .button{
   background-color: rgba(0,0,0,0.7);
   color: aliceblue;
-  margin-top: 10px;
+  margin-top: 20px;
   height: 10vh;
   border-radius: 5vh;
   width: 40vh;
@@ -31,10 +31,13 @@ h2{
 }
 
 .input{
-  margin-top: 10px;
+  margin-top: 20px;
   /* border-color: yellow; */
-  height: 3vh;
+  height: 5vh;
   width: 80vh;
   border-radius: 1vw;
   font-size: 1.5vw;
+  align-self: center;
+  border-color: white;
+
 }
