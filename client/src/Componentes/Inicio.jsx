@@ -16,9 +16,9 @@ export default function Inicio() {
          
           dispatch(search(nombre));
           
-          // console.log('llego aqiii')
+          console.log('llego aqiii')
           setNombre("")
-          alert("Muchas Gracias por Participar!")
+          // alert("Muchas Gracias por Participar!")
       }
       
   }
