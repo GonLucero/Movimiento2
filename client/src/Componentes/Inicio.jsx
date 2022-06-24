@@ -6,10 +6,10 @@ export default function Inicio() {
   const dispatch = useDispatch();
   const [nombre, setNombre] = useState(""); // declaro un estado inicial nombre, inicialmente vacio
   // en nombre guardo, lo que escribo en la busqueda
-  function handleSubmit(e) { // cuando se accione, reseteo el estado 
-      e.preventDefault();
-      setNombre(""); 
-  }
+  // function handleSubmit(e) { // cuando se accione, reseteo el estado 
+  //     e.preventDefault();
+  //     setNombre(""); 
+  // }
   
   function buscar (){
       if(nombre != ''){
@@ -17,6 +17,7 @@ export default function Inicio() {
           // dispatch(search(nombre));
           
           console.log('llego aqiii')
+          setNombre("")
       }
       
   }
@@ -26,7 +27,8 @@ export default function Inicio() {
     <div className="div1">
       <div className="div">
         <h1>LA CALLE ANDA DICIENDO</h1>
-        <input type="input" className="input" placeholder="Frase..." />
+        <h2>"La universidad está atravesada por problemáticas del mundo contemporáneo, <br/>súmate a evidenciar públicamente las problemáticas que te afectan</h2>
+        <input type="input" className="input" placeholder="Frase..." value={nombre} />
         <button type="submit" className="button" onClick={() => buscar()}> Login </button>
       </div>
       </div>
