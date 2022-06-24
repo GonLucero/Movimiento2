@@ -27,7 +27,7 @@ h2{
   margin-top: 15vh;
   height: 10vh;
   border-radius: 5vh;
-  width: 50vh;
+  width: 30vh;
   align-self: center;
   font-size: 3vh;
   border-color: white;
@@ -41,6 +41,6 @@ h2{
   border-radius: 1vw;
   font-size: 3vh;
   align-self: center;
-
+  padding-left: 1vw;
 
 }
