@@ -4,7 +4,7 @@ import axios from 'axios';
 export function Frase(id) {
   return async function (dispatch) {
     try {
-      var json = await axios(`https://www.grupozerafias.com/gonza/add_movimiento.php?data=hola`);
+      var json = await axios(`https://www.grupozerafias.com/gonza/add_movimiento.php?data=${id}`);
       dispatch({
         type: "FRASE",
         payload: json.data,
