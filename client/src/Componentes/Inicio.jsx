@@ -14,7 +14,7 @@ export default function Inicio() {
   function buscar (){
       if(nombre != ''){
          
-          dispatch(search(nombre));
+          // dispatch(search(nombre));
           
           console.log('llego aqiii')
           setNombre("")
