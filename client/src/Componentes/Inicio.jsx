@@ -28,7 +28,7 @@ export default function Inicio() {
   return (
     <div className="div1">
       <div className="div">
-        <h1>LA CALLE ANDA DICIENDO</h1>
+        <h1>LAS CALLES ANDAN DICIENDO</h1>
         <h2>"La universidad está atravesada por problemáticas del mundo contemporáneo. <br/>Sumate a evidenciar públicamente las problemáticas que te afectan"</h2>
         <input type="input" className="input" placeholder="Frase..." value={nombre} onChange={(e) => setNombre(e.target.value)}/>
         <button type="submit" className="button" onClick={() => buscar()}> Enviar </button>
